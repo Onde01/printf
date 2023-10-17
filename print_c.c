@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
- *printf_char -print a character
+ *printf_char - print a character
  *@val: arguments
+ *@va_list: argument
  *Return: 1.
  */
 
@@ -13,5 +14,5 @@ int printf_char(va_list, val)
 
 	str = va_arg(val, int);
 	_putchar(str);
-	return (1)
+	return (1);
 }

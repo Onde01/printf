@@ -1,8 +1,10 @@
 #include "main.h"
 /**
+ * printf_string - Function
+ * @val: argument
  *_strlen - Returns the length of string
  *@str: pointer string
- *Returns: i
+ *Returns: length
  *
  */
 int printf_string(va_list val)
